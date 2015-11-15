@@ -1,0 +1,33 @@
+footer
+  background: url(../img/resized.jpg) center center
+  background-size: cover
+  
+
+  .lockup
+    padding: 50px 30px
+    +clearfix
+
+  .logo
+    float: left
+    +size(50px)
+    background: #999
+    margin-right: 30px
+   
+  .content-wrap
+    float: left
+
+    a
+      @extend %small-bold
+      display: inline-block
+      color: white
+      margin-right: 30px
+
+      &:hover
+        color: #dadbdb
+
+  .copyright
+    margin: 0
+    text-transform: uppercase
+    color: white
+    font-size: 12px
+  

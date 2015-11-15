@@ -1,0 +1,15 @@
+# Site Settings
+title: Artist Theme
+description: designer//tinker//youtuber
+email: yoyo@gmail.com
+
+# Build settings
+
+markdown: kramdown
+permalink: pretty
+
+port: 3000
+
+sass:
+  sass_dir: assets/css
+  style: :nested
